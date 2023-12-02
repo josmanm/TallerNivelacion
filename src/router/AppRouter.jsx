@@ -10,6 +10,7 @@ const AppRouter = () => {
         <BrowserRouter>
             <Routes>
               <Route element={<Layout/>}>
+                    <Route  element={<MiComponente />} />
                     <Route path="/micomponente" element={<MiComponente />} />
                     <Route path="/micontador" element={<MiContador/>} />
                     <Route path="/misproductos" element={<MisProductos/>}>
