@@ -4,7 +4,7 @@ import Card from '../components/card'
 import { useEffect, useState } from 'react'
 import { Outlet, useNavigate } from 'react-router-dom';
 import { replaceSpacesWithHyphen } from '../utils/stringsUtils';
-import './misproductos.scss'
+
 const MisProductos = () => {
   const [productos, setProductos] = useState([]);
   const {filters,booksFiltered,responseFilter,handleFilter} = useFilter();
