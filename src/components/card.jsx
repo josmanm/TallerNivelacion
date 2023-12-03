@@ -1,4 +1,4 @@
-import './card.scss'
+import './card.sass'
 const Card = ({product,navigate}) => {
   return (
     <figure onClick={()=>navigate(product.title)}>
