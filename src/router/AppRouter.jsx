@@ -7,7 +7,7 @@ import Layout from "../components/Layout/Layout";
 const AppRouter = () => {
   return (
     <div>
-        <BrowserRouter basename="/TallerNivelacion">
+        <BrowserRouter basename='/TallerNivelacion'>
             <Routes>
               <Route element={<Layout/>}>
                     <Route index element={<MiComponente />} />
