@@ -49,9 +49,9 @@ const MiToDoList = () => {
     />
     <ul>
       {tasks.tasks.map(item => (
-        <li key={item.id} className={item.completed ? 'completed' : 'Des'}>
+        <li key={item.id} >
           <div>
-              <span>{item.text}</span>
+              <span>{item.completed ? '✔' : ''}{item.text}</span>
               <button onClick={() => toggleTodo(item.id)}>Completado</button>
               <button onClick={() => removeTodo(item.id)}>Eliminar</button>
           </div>

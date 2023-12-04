@@ -1,4 +1,4 @@
-import './card.css'
+
 const Card = ({product,navigate}) => {
   return (
     <figure onClick={()=>navigate(product.title)}>
